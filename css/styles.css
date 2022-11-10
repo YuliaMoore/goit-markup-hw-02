@@ -1,0 +1,188 @@
+:root {
+    --mainbackground: #ffffff;
+    --darckbackground:#2F303A;
+    --maintxt-color:#757575;
+    --text-color: #212121;
+    --lighttxt-color:#FFFFFF;
+    --link-color: #2196F3;
+    --logoblack:#000000;
+    --background-comand: #F5F4FA;
+    --active-button:#188CE8;
+}
+
+body {
+    background-color: var(--background);
+    font-family: roboto, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(24/14);
+    color: var(--maintxt-color);
+ }
+ 
+ ul {list-style: none;}
+
+ .hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    overflow: hidden;
+ }
+
+ /*---НАВІГАЦІЯ---*/
+ .logo-link {color:var(--link-color);}
+.logo-header {color: var(--logoblack);}
+
+.logo-link, .logo-header, .logo-footer{
+font-family: raleway, sans-serif;
+line-height: calc(31/26);
+font-size: 26px;
+letter-spacing: 0.03em;
+text-decoration: none;}
+
+.navigation .link{
+font-family: roboto, sans-serif;
+font-weight: 500;
+line-height: calc(16/14);
+letter-spacing: 0.02em;
+color: var(--text-color);
+list-style: none;
+text-decoration: none;}
+
+.navigation .current-page {color: var(--link-color);}
+
+.navigation .link-mail, 
+.navigation .link-tel {color: var(--maintxt-color);}
+
+.link:hover,
+.link:focus {color: var(--link-color);}
+
+link { 
+    color: var(--text-color); 
+    text-decoration: none;}
+
+/*---БАННЕР---*/
+.bunner,footer {
+    background-color: var(--darckbackground);
+    color: var(--lighttxt-color);}
+
+.bunner-title {
+    text-align: center;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: calc(66/44);
+}
+
+.bunner {text-align: center;}
+
+.bunner .button {
+    background-color: var(--link-color);
+    color: var(--lighttxt-color);
+    cursor: pointer;
+    font-family: roboto, sans-serif;
+    text-align: center;
+    font-weight: 700;
+    font-size:  16px;
+    line-height: calc(30/16);}
+
+.bunner .button:hover,
+.bunner .button:focus {background-color: var(--active-button);}
+
+/*---ПЕРЕВАГИ---*/
+.title-benefits {
+    font-weight: 700;
+    line-height: calc(16/14);
+    letter-spacing: 0.03em;
+    color: var(--text-color);}
+
+.article-benefits {
+    line-height: calc(24/14);
+    letter-spacing: 0.03em;
+    color: var(--maintxt-color);}
+
+/*---Чим ми займаємося---*/
+.section-title, .section-people {color:var(--text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42/36);
+    text-align: center;
+    letter-spacing: 0.03em;}
+
+/*---ЛЮДИ---*/
+.people {background-color: var(--background-comand);}
+
+.section-people-h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(19/16);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--text-color);}
+
+ .people-article {
+    font-size: 16px;
+    line-height: calc(19/16);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--maintxt-color);}
+
+/*---FOOTER---*/
+.logo-footer {color: var(--lighttxt-color);}
+
+.footer {
+    font-family: roboto, sans-serif;
+    font-style: normal;
+    line-height: calc(24/14);
+    letter-spacing: 0.03em;}
+
+.contact .link {
+    color: rgba(255, 255, 255, .6);
+    font-style: normal;
+    line-height: calc(24/14);
+    letter-spacing: 0.03em;}
+
+.contact .link:hover,
+.contact .link:focus {color: var(--link-color);}
+
+/*---ПОРТФОЛІО---*/
+.portfolio {
+    background-color: var(--mainbackground);
+    font-family: roboto, sans-serif;
+    font-size: 16px;
+    line-height: calc(30/16);
+    letter-spacing: 0.03em;
+    color: var(--maintxt-color);}
+
+.portfolio button {text-align: center;}
+.portfolio .title {font-family: roboto, sans-serif;
+    color: var(--text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: calc(36/18);
+    letter-spacing: 0.06em;}
+    
+.portfolio .button {
+    cursor: pointer;
+    font-family: roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(26/16);
+    letter-spacing: 0.03em;}
+    
+.portfolio .active-button {
+    background-color: var(--link-color);
+     color: var(--lighttxt-color);}
+    
+.button:hover, .button:focus {
+    background-color: var(--link-color);
+    color: var(--lighttxt-color);}
+       
+.title-portfolio {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: calc(36/18);
+    letter-spacing: 0.06em;
+    color: var(--text-color);}
